@@ -1,0 +1,38 @@
+GridBackground{
+	--grid-background-color: #282828;
+	--line-color: rgba(193,196,192,0.05);
+	--thick-line-color: rgba(192,196,192,0.1);
+	--spacing: 15;
+}
+
+Toolbar Label{
+	max-width:80px;
+	width:80px;
+	min-width:80px;
+}
+
+Toolbar TextField{
+	width:300px;
+}
+
+Toolbar TextInput{
+	width:auto;
+}
+
+Blackboard TextField Label{
+
+	max-width:50px;
+	width:50px;
+	min-width:50px;
+}
+
+Blackboard Button{
+	max-width:20px;
+	width:20px;
+	min-width:20px;
+	max-height:20px;
+	height:20px;
+	min-height:20px;
+	border-radius:20px;
+	
+}

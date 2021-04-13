@@ -1,0 +1,48 @@
+DialogueNode #title{
+	background-color: rgb(100,150,230);
+	-unity-font-style: : bold;
+}
+
+DialogueNode #title Label{
+	color:rgb(20,20,20);
+}
+
+DialogueNode Port.output Label{
+
+	position:absolute;
+	padding-left:20px;
+}
+
+DialogueNode Foldout{
+	background-color: rgb(28,28,28);
+	padding-top:2.5px;
+	padding-bottom:2.5px;
+}
+
+DialogueNode Foldout Toggle Label{
+
+	color:gray;
+	right:5px;
+	position:absolute;
+
+}
+
+DialogueNode Foldout TextField Label{
+	max-width:50px;
+	width:50px;
+	min-width:50px;
+
+}
+
+DialogueNode Foldout #deleteparameter{
+	max-width:5%;
+	width:5%;
+	min-width:5%;
+	left:-20px;
+	top:-3px;
+	position:absolute;
+}
+
+DialogueNode Foldout #parameter{
+	overflow: visible;
+}
